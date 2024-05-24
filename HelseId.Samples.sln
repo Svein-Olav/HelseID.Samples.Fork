@@ -1,18 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.ApiAccess", "ApiAccess\HelseId.Samples.ApiAccess.csproj", "{FA23EA9E-7E1E-4F6A-8BF1-369919D0BEEB}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.ApiAccess", "ApiAccess\HelseId.Samples.ApiAccess.csproj", "{FA23EA9E-7E1E-4F6A-8BF1-369919D0BEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.ClientCredentials", "ClientCredentials\HelseId.Samples.ClientCredentials.csproj", "{117CC087-E6CB-4DEA-88AF-DB1DFEC2ECCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.ClientCredentials", "ClientCredentials\HelseId.Samples.ClientCredentials.csproj", "{117CC087-E6CB-4DEA-88AF-DB1DFEC2ECCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.Common", "Common\HelseId.Samples.Common.csproj", "{2A054025-503A-405B-BD3E-75F43B3B0BC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.Common", "Common\HelseId.Samples.Common.csproj", "{2A054025-503A-405B-BD3E-75F43B3B0BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.Configuration", "Configuration\HelseId.Samples.Configuration.csproj", "{36266DA1-AB27-4D38-B14C-4B3742321636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.Configuration", "Configuration\HelseId.Samples.Configuration.csproj", "{36266DA1-AB27-4D38-B14C-4B3742321636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.SampleApi", "SampleApi\HelseId.Samples.SampleApi.csproj", "{B6D9D670-9857-496A-A02A-0909C09FF7B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.SampleApi", "SampleApi\HelseId.Samples.SampleApi.csproj", "{B6D9D670-9857-496A-A02A-0909C09FF7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.SampleApiForTokenExchange", "SampleApiForTokenExchange\HelseId.Samples.SampleApiForTokenExchange.csproj", "{8F6B8902-A09D-450A-80FE-0E3D555EF34B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelseId.Samples.SampleApiForTokenExchange", "SampleApiForTokenExchange\HelseId.Samples.SampleApiForTokenExchange.csproj", "{8F6B8902-A09D-450A-80FE-0E3D555EF34B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTokenProxy", "TestTokenProxy\TestTokenProxy.csproj", "{3B21B749-5002-42B6-8CD3-DBA8C8698E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTokenProxy", "TestTokenProxy\TestTokenProxy.csproj", "{3B21B749-5002-42B6-8CD3-DBA8C8698E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.AppHost", "HelseId.Samples.AppHost\HelseId.Samples.AppHost.csproj", "{64F5D4F3-61BF-4CA5-9B1A-B2B74D33D641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelseId.Samples.ServiceDefaults", "HelseId.Samples.ServiceDefaults\HelseId.Samples.ServiceDefaults.csproj", "{33A4F2D6-2CF8-48D9-AE67-84F0E4F52B97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +55,19 @@ Global
 		{3B21B749-5002-42B6-8CD3-DBA8C8698E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B21B749-5002-42B6-8CD3-DBA8C8698E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B21B749-5002-42B6-8CD3-DBA8C8698E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F5D4F3-61BF-4CA5-9B1A-B2B74D33D641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F5D4F3-61BF-4CA5-9B1A-B2B74D33D641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F5D4F3-61BF-4CA5-9B1A-B2B74D33D641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F5D4F3-61BF-4CA5-9B1A-B2B74D33D641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A4F2D6-2CF8-48D9-AE67-84F0E4F52B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A4F2D6-2CF8-48D9-AE67-84F0E4F52B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A4F2D6-2CF8-48D9-AE67-84F0E4F52B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A4F2D6-2CF8-48D9-AE67-84F0E4F52B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56C769BF-6A06-4E43-B51A-14922C4DFC4A}
 	EndGlobalSection
 EndGlobal

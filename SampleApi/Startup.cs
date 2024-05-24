@@ -24,7 +24,7 @@ public  class Startup
 
     public WebApplication BuildWebApplication()
     {
-        var webApplicationBuilder = WebApplication.CreateBuilder();
+        var webApplicationBuilder = WebApplication.CreateBuilder();       
 
         AddServices(webApplicationBuilder);
 
@@ -39,6 +39,7 @@ public  class Startup
 
     private void AddServices(WebApplicationBuilder webApplicationBuilder)
     {
+        webApplicationBuilder.AddServiceDefaults(); 
         webApplicationBuilder.Services.AddSwaggerGen();
 
         // Create singleton from instance
@@ -158,6 +159,7 @@ public  class Startup
 
     private static void ConfigureServices(WebApplication webApplication)
     {
+        
         // Set up functionality for getting a bearer token (see extend-swagger.js for details):
         webApplication.UseStaticFiles();
         webApplication.UseSwagger();
@@ -174,5 +176,6 @@ public  class Startup
         webApplication.UseAuthentication();
         webApplication.UseAuthorization();
         webApplication.MapControllers();
+        webApplication.MapDefaultEndpoints();
     }
 }
